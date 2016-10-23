@@ -1,0 +1,25 @@
+<html>
+	<head>
+		<title>Times Calc</title>
+		<script type="text/javascript">
+			function isPrime() {
+				var thenumber = document.getElementById('number').value;
+			   if (thenumber < 2) { alert("Nope! Not a prime number!"); return false;}
+			   if (thenumber != Math.round(thenumber)) {return false}
+			   var yesnoprime = true;
+			   for (var i = 2; i <= Math.sqrt(thenumber); i++) {
+			      if (thenumber % i == 0) {yesnoprime = false}
+			   }
+			   if(yesnoprime) {
+				   alert("Yep! It is a prime number!");
+			   } else {
+				   alert("Nope! Not a prime number!");
+			   }
+			} 
+		</script>
+	</head>
+	<body>
+		Check if a number is a prime!
+		<input id="number" type="text"><input type="button" value="Check it!" onclick="javascript:isPrime();">
+	</body>
+</html>
