@@ -1,2 +1,6 @@
 # my-first-project
-This was the very first JavaScript project I made to help me cheat on homework in fifth grade.
+Fifth grade math is hard. JavaScript made it easier.
+
+This is a little program that helped me cheat on my fifth grade math homework.
+
+I clearly ruled the world with my magic computer skillz.
